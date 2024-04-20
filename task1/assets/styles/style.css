@@ -1,0 +1,22 @@
+.wrapper {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.0705882353);
+  padding: 1%;
+}
+
+.main-content--bgcolor {
+  background-color: rgba(0, 0, 0, 0.0705882353);
+}
+
+h1 {
+  font-size: 5rem;
+  font-style: bolder;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 4rem;
+  }
+}/*# sourceMappingURL=style.css.map */

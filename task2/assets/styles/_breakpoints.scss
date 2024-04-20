@@ -1,0 +1,24 @@
+/* Desktop first breakpoints */
+
+/* large screens */
+@mixin lg-d {
+	@media ((max-width: calc(map-get($breakpoints, xl) - 0.2px))) {
+		@content;
+	}
+}
+
+/* medium screens */
+
+@mixin md-d {
+	@media ((max-width: calc(map-get($breakpoints, lg) - 0.2px))) {
+		@content;
+	}
+}
+
+/* small screens */
+
+@mixin sm-d {
+	@media ((max-width: calc(map-get($breakpoints, md) - 0.2px))) {
+		@content;
+	}
+}
